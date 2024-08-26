@@ -9,7 +9,7 @@
 
 ### 1. Build the Project
 
-Navigate to the project root directory and run the following command:
+Navigate to the project root directory (powerplant-coding-challenge\PowerPlant) and run the following command:
 
 ```shell
 dotnet build
@@ -17,7 +17,7 @@ dotnet build
 
 ### 2. Run the API
 
-Once built, navigate to the directory containing the API project and run:
+Once built, navigate to the directory (powerplant-coding-challenge\PowerPlant\PowerPlant.WebApi) containing the API project and run:
 
 ```shell
 dotnet run
@@ -25,9 +25,9 @@ dotnet run
 
 This will launch the API, and it will be accessible at the configured port.
 
-You can open your browser at http://localhost:8888/swagger/index.html to explore the API throught the Swagger UI.
+You can access the API documentation at http://localhost:8888/swagger/index.html using your web browser. 
 
-The endpoint is located at http://localhost:8888/productionplan as asked in the challenge.
+The endpoint for the challenge is http://localhost:8888/productionplan.
 
 ### CO2
 
